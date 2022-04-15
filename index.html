@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pictionary Word Generator</title>
+    <meta name="description" content="Generates random Pictionary words.">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <h1>Pictionary Word Generator</h1>
+    <div class="category-select-container">
+        <label for="category-select" class="category-select-label">Category</label>
+        <select name="category-select" class="category-select-menu">
+            <option value="allplay" id="allplay">All Play</option>
+            <option value="difficult" id="difficult">Difficult</option>
+            <option value="action" id="action">Action</option>
+            <option value="personplaceanimal" id="personplaceanimal">Person, Place, or Animal</option>
+            <option value="object" id="object">Object</option>
+        </select>
+        <br>
+        
+    </div>
+    <div style="text-align:center">
+        <button class="generate-button">Generate</button>
+    </div>
+    <div class="word-container" style="text-align:center">
+        Your word is:
+        <h2 class="generated-word">WORD</h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
