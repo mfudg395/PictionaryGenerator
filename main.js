@@ -13,7 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
         "rocket ship", "romeo and juliet", "igloo", "bullet", "table tennis", "anchor", "anger", "locomotive",
         "eyeliner", "paper towl", "conductor", "candle", "family tree", "toddler", "newborn", "beanie",
         "sweater", "jean shorts", "mahjong", "billiards", "blindfold", "birdhouse", "prison cell", "raspberry jam",
-        "magician", "birthday cake", "rosemary", "black pepper", "cheese grater", "laptop", "flannel", "eyepatch"
+        "magician", "birthday cake", "rosemary", "black pepper", "cheese grater", "laptop", "flannel", "eyepatch",
+        "canal", "ink sac", "fireplace", "lump of coal", "jack-o'-lantern", "valentine", "envelope", "thursday",
+        "birthday party", "graduation", "urn", "temple", "landslide", "castle", "red carpet", "thanksgiving"
     ]
 
     const difficultWords = [
@@ -25,7 +27,9 @@ document.addEventListener('DOMContentLoaded', function() {
         "saltwater", "dangerous", "rival", "convenience store", "telepathy", "tarot cards", "sinus infection",
         "prime minister", "acre", "shipwreck", "summer solstice", "solar eclipse", "catacombs", "rock band", "tourist",
         "sand castle", "applause", "sunburn", "tundra", "multiplication", "ballistic missile", "nuclear", "periodic table",
-        "chemistry", "potassium", "road trip", "competition", "isthmus", "mutiny", "hieroglyphs", "education"
+        "chemistry", "potassium", "road trip", "competition", "isthmus", "mutiny", "hieroglyphs", "education", "spirit",
+        "noah's ark", "whole grain", "instant message", "cartoon", "shoe polish", "leather", "eulogy", "ember", "ignition",
+        "barricade", "lord of the flies"
     ]
 
     const actionWords = [
@@ -33,7 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "smell", "surprise", "promise", "thinking", "sail", "slip", "rock climb", "travel", "fly", "drive", "investigate",
         "type", "sing", "dance", "vow", "kneel", "slumber", "dream", "fight", "sucker punch", "dodge", "brawl", "baking",
         "accept", "anticipate", "bend", "blow", "bounce", "expand", "experiment", "hug", "manage", "push", "relax", "retire",
-        "shrink", "ski", "vacuum", "write", "wish", "snore"
+        "shrink", "ski", "vacuum", "write", "wish", "snore", "discuss", "operation", "grind", "watch", "brush", "ship", "digging",
+        "glide", "farm", "throw away", "roll", "lift", "stomp"
     ]
 
     const personPlaceAnimalWords = [
@@ -42,7 +47,9 @@ document.addEventListener('DOMContentLoaded', function() {
         "prince edward island", "steven spielberg", "jurassic park", "western alps", "pacific ocean", "red sea", "walt disney",
         "hollywood", "big ben", "eiffel tower", "leaning tower of pisa", "burj khalifa", "desert", "tundra", "ostritch",
         "tortoise", "great white shark", "orangutan", "crane", "conure", "underworld", "heaven", "ninja", "madagascar",
-        "pearl harbor", "squirrel", "anteater"
+        "pearl harbor", "squirrel", "anteater", "king", "camel", "emperor penguin", "giraffe", "amazon", "king arthur",
+        "musician", "senior", "prisoner", "warden", "criminal", "nurse", "mailman", "wizard", "surgeon", "soldier", "rattlesnake",
+        "reptile", "amphibian", "beluga whale", "southern hemisphere", "journalist"
     ]
     
     const objectWords = [
@@ -50,7 +57,9 @@ document.addEventListener('DOMContentLoaded', function() {
         "office chair", "tulip", "sunflower", "backpack", "needle-nose pliers", "butter knife", "gavel", "screwdriver",
         "laundry basket", "video camera", "monocole", "can opener", "tire iron", "crowbar", "broadsword", "stroller",
         "mask", "sunglasses", "arcade cabinet", "onesie", "syringe", "jetpack", "fedora", "wheelchair", "mittens", "frying pan",
-        "black belt", "semiconductor"
+        "black belt", "semiconductor", "diary", "baseball bat", "deck of cards", "lightbulb", "hatchet", "litterbox", "helipad",
+        "nail clippers", "scarf", "fax machine", "telephone booth", "bacon and eggs", "spaghetti and meatballs", "silverware",
+        "notebook", "tripod", "scythe", "rope bridge"
     ]
 
     console.log("All-play words: " + allPlayWords.length);
