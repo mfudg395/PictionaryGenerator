@@ -16,12 +16,13 @@
     <h1>Pictionary Word Generator</h1>
     <div class="category-select-container">
         <label for="category-select" class="category-select-label">Category</label>
+        <br>
         <select name="category-select" class="category-select-menu">
-            <option value="allplay" id="allplay">All Play</option>
-            <option value="difficult" id="difficult">Difficult</option>
-            <option value="action" id="action">Action</option>
-            <option value="personplaceanimal" id="personplaceanimal">Person, Place, or Animal</option>
-            <option value="object" id="object">Object</option>
+            <option value="allplay" id="allplay">All Play (Orange)</option>
+            <option value="difficult" id="difficult">Difficult (Green)</option>
+            <option value="action" id="action">Action (Purple)</option>
+            <option value="personplaceanimal" id="personplaceanimal">Person, Place, or Animal (Yellow)</option>
+            <option value="object" id="object">Object (Blue)</option>
         </select>
         <br>
         
@@ -32,6 +33,8 @@
     <div class="word-container" style="text-align:center">
         Your word is:
         <h2 class="generated-word">WORD</h2>
+        <br>
+        <span style="font-size: 20pt">This <span id="all-play-label"></span> an All-Play.</span>
     </div>
     <script src="main.js"></script>
 </body>
